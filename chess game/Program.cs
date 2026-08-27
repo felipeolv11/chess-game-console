@@ -2,7 +2,7 @@
 
 namespace chess_game
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
