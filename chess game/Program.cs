@@ -1,4 +1,5 @@
-﻿using tabuleiro;
+﻿using System.Runtime.CompilerServices;
+using tabuleiro;
 using xadrez;
 
 namespace chess_game
@@ -44,6 +45,9 @@ namespace chess_game
                         Console.ReadLine();
                     }
                 }
+
+                Console.Clear();
+                Tela.imprimirPartida(partida);
             }
 
             catch (TabuleiroException e)
